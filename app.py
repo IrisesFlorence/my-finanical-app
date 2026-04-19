@@ -1,11 +1,8 @@
 import streamlit as st
 import math
-
 st.set_page_config(page_title="QQQ 定期定額計算機", page_icon="💰")
-
 st.title("📈 QQQ 長期投資增長預測")
 st.write("設定你的定期定額計劃，看看 15 年後的成果！")
-
 # 1. 輸入參數
 initial_investment = st.number_input("初始啟動資金 (USD)", min_value=0, value=1000)
 periodic_amount = st.number_input("每次定額投入金額 (USD)", min_value=0, value=650)
