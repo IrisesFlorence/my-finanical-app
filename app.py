@@ -45,3 +45,4 @@ st.write(f"淨賺利息：${total_fv - total_invested:,.2f}")
 st.divider()
 st.success(f"💡 透過持續「{frequency}」定額投資，你的財富增長了約 {total_fv/total_invested:.1f} 倍！")
 st.caption("註：假設年化回報 12%，市場有波動，數據僅供參考。")
+
